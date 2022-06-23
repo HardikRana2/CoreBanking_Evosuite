@@ -1,0 +1,75 @@
+* Starting client
+* Connecting to master process on port 21465
+* Analyzing classpath: 
+  - C:\Users\Hardik Rana\Intellij_projects\CoreBanking\target\test-classes
+  - C:\Users\Hardik Rana\Intellij_projects\CoreBanking\target\classes
+  - C:\Users\Hardik Rana\.m2\repository\junit\junit\4.11\junit-4.11.jar
+  - C:\Users\Hardik Rana\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class io.diffblue.corebanking.transaction.BankTransaction
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 16 tests from C:\Users\Hardik Rana\Intellij_projects\CoreBanking\.evosuite\evosuite-seeds\io.diffblue.corebanking.transaction.BankTransaction.seed
+* Total number of test goals: 
+  - Line 33
+  - Branch 10
+  - Exception 0
+  - MutationFactory 9
+  - Output 6
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 10
+* Using seed 1655897563920
+* Starting evolution
+* Search finished after 92s and 3336 generations, 848760 statements, best individual has fitness: 4.866666666666667
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 94%
+* Total number of goals: 33
+* Number of covered goals: 31
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 9
+* Number of covered goals: 9
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 33%
+* Total number of goals: 6
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Generated 9 tests with total length 43
+* Resulting test suite's coverage: 91% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'BankTransaction_ESTest' to C:\Users\Hardik Rana\Intellij_projects\CoreBanking\.evosuite\tmp_2022_06_22_16_39_25\tests
+* Done!
+
